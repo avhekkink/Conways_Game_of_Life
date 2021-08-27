@@ -1,5 +1,7 @@
 # Conways_Game_of_Life
-Compute n timesteps of Conway's Game of Life, Kata set on codewars.com. Coded in python.
+Compute n timesteps of Conway's Game of Life, kata set on codewars.com. 
+
+Coded in python.
 
 Given a 2D array and a number of generations, compute n timesteps of Conway's Game of Life.
 
