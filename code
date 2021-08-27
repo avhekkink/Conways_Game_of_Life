@@ -7,13 +7,7 @@ def htmlize(array):
             s.append('▓▓' if cell else '░░')
         s.append('\n')
     return ''.join(s)
-
-start = [[1,0,0],
-         [0,1,1],
-         [1,1,0]]
-end   = [[0,1,0],
-         [0,0,1],
-         [1,1,1]]
+    
 
 def get_generation(cells, generations):
     # initialise current array of size (n, m)
@@ -100,7 +94,9 @@ def get_generation(cells, generations):
     cells = arr.tolist()
     return cells
     
-# see three examples for starting arrays
+    
+    
+# Three examples for starting arrays...
 
 start1 = [[0,0,0],
          [1,1,1],
@@ -137,5 +133,7 @@ start3 = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
 
 
+
+# Demonstration...
 
 get_generation(start3, 12)
